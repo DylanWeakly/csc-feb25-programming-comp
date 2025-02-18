@@ -1,19 +1,13 @@
 # CSC Programming Competition: February 21st, 2025
 #### Instructions:
-Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are **not allowed** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
-After you finish each challenge, create a pull request, and Dylan will merge it into main and add to your point total.
-
-#### Please use the following format for naming your folder and programming files:
-   - Folder name: `<first name>`
-     - Example: `dylan`
-   - Programming file name: `<<challenge level> - <number> . <programming language extension>>`
-     - Example: `easy-1.py`
+Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
+After you finish each challenge, create a pull request. ***Do not*** merge into main. Dylan will merge it and keep track of your total points after you create the pull request.
+### **Most importantly, have fun**!!
 
 #### Example Project Directory Format:
 
 ```
 csc-programming-comp-feb25
-|   
 |   README.md
 |   
 |___your_name
@@ -24,6 +18,17 @@ csc-programming-comp-feb25
 |   |___inter-23.py
 
 ```
+
+#### File Naming Convention:
+   - Folder name: Your first name.
+     - Example: `john`
+   - Programming file name: Challenge level & number.
+     - Example: `easy-1.py`
+
+#### Commit Message Format:
+   - You should commit after each challenge. Your commit message should be the program you just finished.
+   - Example: If you just finished coding `easy-1.py`, your commit message should be `"easy-1"`.
+
 
 ## Easy Challenges (10-20 points)
 
