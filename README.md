@@ -1,7 +1,7 @@
 # CSC Programming Competition: February 21st, 2025
 #### Instructions:
 Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
-After you finish each challenge, create a pull request. ***Do not*** merge into main. Dylan will merge it and keep track of your total points after you create the pull request.
+After you finish each challenge, create a pull request. Dylan will merge it and keep track of your total points after you create the pull request.
 ### **Most importantly, have fun**!!
 
 #### Example Project Directory Format:
