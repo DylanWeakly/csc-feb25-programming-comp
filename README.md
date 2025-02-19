@@ -1,5 +1,5 @@
 # CSC Programming Competition: February 21st, 2025 - R1340 from 3:30 - 5:30 pm
-#### Instructions:
+## Instructions:
 Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
 After you finish each challenge, create a pull request. Dylan will merge it and keep track of your total points after you create the pull request.
 ### The top 3 winners will receive an Amazon gift card. You must attend in-person to be eligible to win a gift card.
@@ -33,19 +33,26 @@ csc-programming-comp-feb25
 
 # Challenges
 
-## GUI Challenges (5-20 points)
+## GUI Challenges (10-40 points)
 
-#### 1. Click Me Button (5 pts)
+#### 1. Click Me Button (10 pts)
    - Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!".
-
-#### 2. Basic Counter GUI (10 pts)
-   - Create a GUI counter that starts at 0. It should have two buttons: `Increase` and `Decrease`, which adjust the counter label accordingly.
-
-#### 3. Bible Verse Generator (15 pts)
+     
+#### 2. Bible Verse Generator (20 pts)
    - Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.
 
-#### 4. Traffic Light Simulation (20 pts)
+#### 3. Digital Clock (25 pts)
+   - Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.
+
+#### 4. Password Strength Checker (35 pts)
+   - Create a GUI window that evaluates the strength of a password based on length, character variety, and entropy.
+   - Include a `Check Strength` button along with an input field that returns feedback on how strong the password is.
+   - Example: `password123` → `Weak`
+
+#### 5. Traffic Light Simulation (40 pts)
    - Create a GUI window to simulate a traffic light using three circular indicators (red, yellow, and green). When the user clicks a `Next` button, the lights should cycle correctly: `Green` → `Yellow` → `Red`.
+
+## Standard Challenges
 
 ## Easy Challenges (10-20 points)
 
