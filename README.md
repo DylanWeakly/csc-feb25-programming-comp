@@ -12,11 +12,11 @@ csc-programming-comp-feb25
 |   README.md
 |   
 |___your_name
-|   |___easy-1.py
+|   |___gui-1.py
 |   |___hard-42.cs
 |___another_person
 |   |___easy-2.py
-|   |___inter-23.py
+|   |___medium-23.py
 
 ```
 
@@ -30,6 +30,22 @@ csc-programming-comp-feb25
    - You should commit after each challenge. Your commit message should be the program you just finished.
    - Example: If you just finished coding `easy-1.py`, your commit message should be `"easy-1"`.
 
+
+# Challenges
+
+## GUI Challenges (5-20 points)
+
+#### 1. Click Me Button (5 pts)
+   - Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!".
+
+#### 2. Basic Counter GUI (10 pts)
+   - Create a GUI counter that starts at 0. It should have two buttons: `Increase` and `Decrease`, which adjust the counter label accordingly.
+
+#### 3. Bible Verse Generator (15 pts)
+   - Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.
+
+#### 4. Traffic Light Simulation (20 pts)
+   - Create a GUI window to simulate a traffic light using three circular indicators (red, yellow, and green). When the user clicks a `Next` button, the lights should cycle correctly: `Green` → `Yellow` → `Red`.
 
 ## Easy Challenges (10-20 points)
 
@@ -113,7 +129,7 @@ csc-programming-comp-feb25
    - Write a function that checks if one list is a rotation of another.
    - Example: `[1, 2, 3, 4]` and `[3, 4, 1, 2]` → `True`
 
-## Intermediate Challenges (25-45 points)
+## Medium Challenges (25-45 points)
 
 #### 21. Longest Consecutive Sequence (25 pts)
    - Write a function that finds the longest consecutive sequence of numbers in an unsorted list.
