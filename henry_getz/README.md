@@ -70,9 +70,9 @@ csc-programming-comp-feb25
    - Write a function that returns a list where each element is the cumulative sum of the elements before it.
    - Example: `[1, 2, 3]` → `[1, 3, 6]`
 
-#### 4. String Expansion (10 pts)
-   - Write a function that repeats each character in a string `n` times.
-   - Example: `"abc", n=3` → `"aaabbbccc"`
+#### ~~4. String Expansion (10 pts)~~
+   - ~~Write a function that repeats each character in a string `n` times.~~
+   - ~~Example: `"abc", n=3` → `"aaabbbccc"`~~
 
 #### ~~5. Remove Vowels from String (10 pts)~~
    - ~~Write a function that removes all vowels from a given string.~~
