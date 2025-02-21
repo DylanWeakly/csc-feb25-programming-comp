@@ -43,8 +43,8 @@ csc-programming-comp-feb25
 #### ~~2. Bible Verse Generator (20 pts)~~
    - ~~Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib~~
 
-#### 3. Digital Clock (30 pts)
-   - Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.
+#### ~~3. Digital Clock (30 pts)~~
+   - ~~Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.~~
 
 #### 4. Password Strength Checker (40 pts)
    - Create a GUI window that evaluates the strength of a password based on length, character variety, and entropy.
@@ -276,9 +276,9 @@ csc-programming-comp-feb25
    - Write a program that finds the shortest path in a given maze using BFS or A* algorithm.
    - Example: 2D grid input where `'S'` is start, `'E'` is end, and `'#'` are walls.
 
-#### 48. Anagram Generator (50 pts)
-   - Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.
-   - Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).
+#### ==48. Anagram Generator (50 pts)==
+   - ==Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.==
+   - ==Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).==
 
 #### 49. Hexagonal Grid Pathfinding (50 pts)
    - Write a program that finds the shortest path between two points on a hexagonal grid.
