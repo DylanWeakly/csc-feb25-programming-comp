@@ -4,7 +4,7 @@ Each person must fork this GitHub repo and create a folder in the repo with thei
 After you finish each challenge, create a pull request. Dylan will merge it and keep track of your total points after you create the pull request.
 #### The top 3 winners will receive an Amazon gift card. You must attend in-person to be eligible to win a gift card.
 
-#### Those of you from Mobile App Dev will submit your code/runs to the Moodle Site for class, in addition to this repo.
+#### Those of you from Mobile App Dev will submit your code/runs to the Moodle Site for class, in addition to this repo so your points can be tracked.
 
 ### **Most importantly, have fun**!!
 
