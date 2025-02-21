@@ -37,14 +37,14 @@ csc-programming-comp-feb25
 
 ## GUI Challenges (10-50 points)
 
-#### ~~1. Click Me Button (10 pts)~~
-   - ~~Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!".~~
+#### 1. Click Me Button (10 pts)
+   -  Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!". 
      
-#### ~~2. Bible Verse Generator (20 pts)~~
-   - ~~Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib~~
+####  2. Bible Verse Generator (20 pts) 
+   -  Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib 
 
-#### ~~3. Digital Clock (30 pts)~~
-   - ~~Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.~~
+#### 3. Digital Clock (30 pts)
+   - Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.
 
 #### 4. Password Strength Checker (40 pts)
    - Create a GUI window that evaluates the strength of a password based on length, character variety, and entropy.

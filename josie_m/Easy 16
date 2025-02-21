@@ -1,0 +1,15 @@
+#Josie Mellick
+#Easy 16
+
+list = [1, 3, 5, 15]
+
+for i in list:
+    list[i] = int(list[i])
+    if list[i]  % 3 == 0:
+        list[i] = "Bethel"
+    if list[i] % 5 == 0:
+        list[i] = "Sucks"
+    if list[i] % 15 == 0:
+        list[i] = "BethelSucks"
+
+print(list)

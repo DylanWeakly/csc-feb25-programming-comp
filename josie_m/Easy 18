@@ -1,0 +1,19 @@
+#Josie Mellick
+#Easy 18
+
+list = [3, 1, 4, 2, 5]
+shortest = 100
+
+for i in list:
+    if i < shortest:
+        shortest = i
+
+list.remove(shortest)
+
+shortest = 100
+
+for i in list:
+    if i < shortest:
+        shortest = i
+
+print(shortest)

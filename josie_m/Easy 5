@@ -1,0 +1,11 @@
+#Josie Mellick
+#Easy 5
+
+text = "hello world"
+vowels = ["a", "e", "i", "o", "u"]
+newtext = ""
+for letter in text:
+    if letter not in vowels:
+        newtext += letter
+
+print(newtext)
