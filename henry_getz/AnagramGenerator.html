@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagram Generator</title>
+    <script src="dictionary.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        dictionary = dictionaryTxt.split('\n');
+        dictionaryWords = [];
+        ogDict = dictionary;
+        for (w of dictionary) {
+            dictionaryWords.push(w.split(""));
+        }
+        console.log(dictionaryWords);
+        alphDict = dictionaryWords.map(word => {
+            let sortedWord = word.sort();
+            return sortedWord.join("");
+        });
+        userWord = prompt("Enter a word to find anagrams for:");
+        alphUserWord = userWord.split("").sort().join("");
+        alphUserWord = alphUserWord.toUpperCase();
+        console.log(alphUserWord);
+        
+        //alphaDictIndexes = alphDict.findIndexes(alphUserWord);
+        alphaDictIndexes = alphDict.reduce((indexes, el, i) => el === alphUserWord ? [...indexes, i] : indexes, []);
+        console.log(alphaDictIndexes);
+        anagrams = [];
+        for (i of alphaDictIndexes) {
+            anagrams.push(dictionaryWords[i].join(""));
+        }
+        window.prompt("Anagrams for " + userWord + ": " + anagrams.join(", "));
+    </script>
+</html>

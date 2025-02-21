@@ -40,11 +40,11 @@ csc-programming-comp-feb25
 #### ~~1. Click Me Button (10 pts)~~
    - ~~Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!".~~
      
-#### 2. Bible Verse Generator (20 pts)
-   - Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib
+#### ~~2. Bible Verse Generator (20 pts)~~
+   - ~~Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib~~
 
-#### 3. Digital Clock (30 pts)
-   - Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.
+#### ~~3. Digital Clock (30 pts)~~
+   - ~~Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.~~
 
 #### 4. Password Strength Checker (40 pts)
    - Create a GUI window that evaluates the strength of a password based on length, character variety, and entropy.
@@ -130,9 +130,9 @@ csc-programming-comp-feb25
    - Write a function that returns the second-smallest number in a list.
    - Example: `[3, 1, 4, 2, 5]` → `2`
 
-#### 19. Find Common Elements in Two Lists (20 pts)
-   - Write a function that finds the common elements between two lists.
-   - Example: `[1, 2, 3]` and `[2, 3, 4]` → `[2, 3]`
+#### ~~19. Find Common Elements in Two Lists (20 pts)~~
+   - ~~Write a function that finds the common elements between two lists.~~
+   - ~~Example: `[1, 2, 3]` and `[2, 3, 4]` → `[2, 3]`~~
 
 #### 20. Check if Lists are Rotations (20 pts)
    - Write a function that checks if one list is a rotation of another.
@@ -140,9 +140,9 @@ csc-programming-comp-feb25
 
 ## Medium Challenges (25-45 points)
 
-#### 21. Longest Consecutive Sequence (25 pts)
-   - Write a function that finds the longest consecutive sequence of numbers in an unsorted list.
-   - Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])`
+#### ~~21. Longest Consecutive Sequence (25 pts)~~
+   - ~~Write a function that finds the longest consecutive sequence of numbers in an unsorted list.~~
+   - ~~Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])~~`
 
 #### 22. Matrix Transposition (25 pts)
    - Write a function that transposes a given matrix (i.e., swaps rows and columns).
@@ -276,9 +276,9 @@ csc-programming-comp-feb25
    - Write a program that finds the shortest path in a given maze using BFS or A* algorithm.
    - Example: 2D grid input where `'S'` is start, `'E'` is end, and `'#'` are walls.
 
-#### 48. Anagram Generator (50 pts)
-   - Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.
-   - Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).
+#### ~~==48. Anagram Generator (50 pts)==~~
+   - ~~==Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.==~~
+   - ~~==Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).==~~
 
 #### 49. Hexagonal Grid Pathfinding (50 pts)
    - Write a program that finds the shortest path between two points on a hexagonal grid.

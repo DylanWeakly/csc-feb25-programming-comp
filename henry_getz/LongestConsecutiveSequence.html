@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LongestConsecutiveSequence</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let numArray = prompt("Enter a list of numbers separated by commas:").split(',').map(Number);
+        numArray = [...new Set(numArray)];
+        numArray.sort((a, b) => a - b);
+        window.alert("Sorted numbers: " + numArray.join(", "));
+    </script>
+</html>
