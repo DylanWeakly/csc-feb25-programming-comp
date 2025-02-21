@@ -106,9 +106,9 @@ csc-programming-comp-feb25
    - Write a function that finds the first non-repeating character in a string.
    - Example: `"swiss"` → `"w"`
 
-#### 13. Sum of Odd Numbers (20 pts)
-   - Write a function that returns the sum of all odd numbers in a given list.
-   - Example: `[1, 2, 3, 4, 5]` → `9`
+#### ~~13. Sum of Odd Numbers (20 pts)~~
+   - ~~Write a function that returns the sum of all odd numbers in a given list.~~
+   - ~~Example: `[1, 2, 3, 4, 5]` → `9`~~
 
 #### 14. Swap First and Last Elements (20 pts)
    - Write a function that swaps the first and last elements of a list.
