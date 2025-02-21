@@ -1,0 +1,11 @@
+#Josie Mellick
+#Medium 35
+
+text = "3a2b4c"
+num = 1
+
+for char in text:
+    try:
+        num = int(char)
+    except ValueError:
+        print(char * num)
