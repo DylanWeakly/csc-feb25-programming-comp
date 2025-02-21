@@ -207,7 +207,7 @@ csc-programming-comp-feb25
    - Write a function that reverses the digits of an integer **without** converting it to a string.
    - Example: `1234` → `4321`, `-456` → `-654`
 
-#### 32. String Compression (35 pts)
+#### 32. Ç (35 pts)
    - Implement a function that compresses a string using the counts of repeated characters.
    - Example: `"aabcccccaaa"` → `"a2b1c5a3"`
 
