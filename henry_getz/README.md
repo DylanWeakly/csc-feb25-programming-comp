@@ -130,9 +130,9 @@ csc-programming-comp-feb25
    - Write a function that returns the second-smallest number in a list.
    - Example: `[3, 1, 4, 2, 5]` → `2`
 
-#### 19. Find Common Elements in Two Lists (20 pts)
-   - Write a function that finds the common elements between two lists.
-   - Example: `[1, 2, 3]` and `[2, 3, 4]` → `[2, 3]`
+#### ~~19. Find Common Elements in Two Lists (20 pts)~~
+   - ~~Write a function that finds the common elements between two lists.~~
+   - ~~Example: `[1, 2, 3]` and `[2, 3, 4]` → `[2, 3]`~~
 
 #### 20. Check if Lists are Rotations (20 pts)
    - Write a function that checks if one list is a rotation of another.
