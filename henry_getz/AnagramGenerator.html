@@ -24,11 +24,7 @@
     <script async>
         dictionary = dictionaryTxt.split('\n');
         dictionaryWords = [];
-        ogDict = [];
-        for (i of dictionary) {
-            ogDict.push(i);
-        }
-        console.log(ogDict);
+        ogDict = dictionary;
         for (w of dictionary) {
             dictionaryWords.push(w.split(""));
         }
@@ -47,7 +43,7 @@
         console.log(alphaDictIndexes);
         anagrams = [];
         for (i of alphaDictIndexes) {
-            anagrams.push(ogDict[i]);
+            anagrams.push(dictionaryWords[i].join(""));
         }
         window.prompt("Anagrams for " + userWord + ": " + anagrams.join(", "));
     </script>

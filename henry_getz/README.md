@@ -140,9 +140,9 @@ csc-programming-comp-feb25
 
 ## Medium Challenges (25-45 points)
 
-#### 21. Longest Consecutive Sequence (25 pts)
-   - Write a function that finds the longest consecutive sequence of numbers in an unsorted list.
-   - Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])`
+#### ==21. Longest Consecutive Sequence (25 pts)==
+   - ==Write a function that finds the longest consecutive sequence of numbers in an unsorted list.==
+   - ==Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])`==
 
 #### 22. Matrix Transposition (25 pts)
    - Write a function that transposes a given matrix (i.e., swaps rows and columns).
@@ -276,9 +276,9 @@ csc-programming-comp-feb25
    - Write a program that finds the shortest path in a given maze using BFS or A* algorithm.
    - Example: 2D grid input where `'S'` is start, `'E'` is end, and `'#'` are walls.
 
-#### ==48. Anagram Generator (50 pts)==
-   - ==Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.==
-   - ==Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).==
+#### ~~==48. Anagram Generator (50 pts)==~~
+   - ~~==Write a program that generates all possible valid anagrams of a given word using a dictionary of valid words.==~~
+   - ~~==Example: `"listen"` → `["listen", "silent", "enlist"]` (if valid).==~~
 
 #### 49. Hexagonal Grid Pathfinding (50 pts)
    - Write a program that finds the shortest path between two points on a hexagonal grid.
