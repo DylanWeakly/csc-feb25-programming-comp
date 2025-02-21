@@ -1,9 +1,11 @@
 # password strength checker Andrew Hayes 2/21/2025
 # I found the majority of this code on a website called https://www.w3resource.com/python-exercises/cybersecurity/python-cybersecurity-exercise-3.php. I made some minor changes to the code to make it work for me.
 import re
+import tkinter as tk
+from tkinter import messagebox
 
 def validate_password(password):
-    # Check if the password has at least 8 characters
+    # Check if the password has at least 10 characters
     if len(password) < 10:
         return False
     
@@ -26,12 +28,27 @@ def validate_password(password):
     # If all the conditions are met, the password is valid
     return True
 
-# user input statment for the password
-password = input("Input your password of a length of ten: ")
-is_valid = validate_password(password)
+def check_password():
+    password = entry.get()
+    is_valid = validate_password(password)
+    if is_valid:
+        messagebox.showinfo("Result", "Your password is valid.")
+    else:
+        messagebox.showerror("Result", "Your password does not meet requirements.")
 
-# checks if the password is valid or not
-if is_valid:
-    print(" your password is valid.")
-else:
-    print("Your password does not meet requirements.")
+# Create the main window
+root = tk.Tk()
+root.title("Password Strength Checker")
+
+# Create and place the widgets
+label = tk.Label(root, text="Input your password of a length of ten:")
+label.pack(pady=10)
+
+entry = tk.Entry(root, show="*")
+entry.pack(pady=10)
+
+button = tk.Button(root, text="Check Password", command=check_password)
+button.pack(pady=10)
+
+# Run the application
+root.mainloop()
