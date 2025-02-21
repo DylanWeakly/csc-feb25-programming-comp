@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+export TZ="America/Chicago"
+
+set -v
+
+git switch incomplete
+git add .
+git commit -m "Competition Commit at $(date "+%H:%M:%S") CT"
+git push
+git switch main
+git merge incomplete
+git push
+gh pr create \
+	--title "Austin L. Submission $(date "+%H:%M") CT" \
+	--fill
+git switch incomplete
