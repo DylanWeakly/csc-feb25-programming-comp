@@ -207,9 +207,9 @@ csc-programming-comp-feb25
    - Write a function that reverses the digits of an integer **without** converting it to a string.
    - Example: `1234` → `4321`, `-456` → `-654`
 
-#### 32. Ç (35 pts)
-   - Implement a function that compresses a string using the counts of repeated characters.
-   - Example: `"aabcccccaaa"` → `"a2b1c5a3"`
+#### ~~32. String Compression (35 pts)~~
+   - ~~Implement a function that compresses a string using the counts of repeated characters.~~
+   - ~~Example: `"aabcccccaaa"` → `"a2b1c5a3"`~~
 
 #### 33. Word Ladder (40 pts)
    - Given a dictionary and two words, find the shortest transformation sequence by changing one letter at a time.
@@ -232,9 +232,9 @@ csc-programming-comp-feb25
    - Write a function that finds the longest palindromic substring in a given string.
    - Example: `"babad"` → `"bab"` or `"aba"`
 
-#### 37. Find Kth Largest Element (45 pts)
-   - Write a function that, given an array and an integer k, returns the kth largest element.
-   - Example: `[3, 2, 1, 5, 6, 4]`, `k=2` → `5`
+#### ~~37. Find Kth Largest Element (45 pts)~~
+   - ~~Write a function that, given an array and an integer k, returns the kth largest element.~~
+   - ~~Example: `[3, 2, 1, 5, 6, 4]`, `k=2` → `5`~~
 
 #### 38. Find Subarray with Given Sum (45 pts)
    - Given an array of integers, find a subarray that sums to a given value `S`.

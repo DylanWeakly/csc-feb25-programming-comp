@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagram Generator</title>
+    <script src="dictionary.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        #light-holder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: gray;
+        }
+        #light {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+            opacity: 0.5;
+        }
+        .red {
+            background-color: red;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .green {
+            background-color: green;
+        }
+        .active {
+            opacity: 1 !important;
+        }
+    </style>
+</head>
+<body onclick="changeTrafficLight()">
+    <div id="light-holder">
+        <div id="light" class="green active"></div>
+        <div id="light" class="yellow"></div>
+        <div id="light" class="red"></div>
+    </div>
+    <script async>
+        function changeTrafficLight() {
+            const lights = document.querySelectorAll('#light');
+            let currentLightIndex = Array.from(lights).findIndex(light => light.classList.contains('active'));
+            lights[currentLightIndex].classList.remove('active');
+
+            nextLightIndex = (currentLightIndex + 1) % lights.length;
+            lights[nextLightIndex].classList.add('active');
+        }
+    </script>
+</html>
