@@ -126,9 +126,9 @@ csc-programming-comp-feb25
    - Write a function that reverses the digits of a given number.
    - Example: `1234` → `4321`
 
-#### 18. Second Smallest Number (20 pts)
-   - Write a function that returns the second-smallest number in a list.
-   - Example: `[3, 1, 4, 2, 5]` → `2`
+#### ~~18. Second Smallest Number (20 pts)~~
+   - ~~Write a function that returns the second-smallest number in a list.~~
+   - ~~Example: `[3, 1, 4, 2, 5]` → `2`~~
 
 #### ~~19. Find Common Elements in Two Lists (20 pts)~~
    - ~~Write a function that finds the common elements between two lists.~~
