@@ -264,9 +264,9 @@ csc-programming-comp-feb25
    - Write a function that finds the shortest path between two nodes in a weighted graph using Dijkstra’s algorithm.
    - Example: Graph with weighted edges input.
 
-#### 45. Expression Evaluator (50 pts)
-   - Write a program that evaluates mathematical expressions, supporting parentheses, addition, subtraction, multiplication, and division.
-   - Example: Input `"3 + (2 * 5)"` → `"13"`.
+#### ~~45. Expression Evaluator (50 pts)~~
+   - ~~Write a program that evaluates mathematical expressions, supporting parentheses, addition, subtraction, multiplication, and division.~~
+   - ~~Example: Input `"3 + (2 * 5)"` → `"13"`.~~
 
 #### 46. Sliding Puzzle Solver (50 pts)
    - Write a program that solves an `NxN` sliding puzzle (e.g., the 15-puzzle) using an optimal search algorithm.

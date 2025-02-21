@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringCompression</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let numArray = prompt("Enter a string with repeats:");
+        function compressString(string) {
+            let compressed = '';
+            let count = 1;
+            for (let i = 0; i < string.length; i++) {
+                if (string[i] === string[i + 1]) {
+                    count++;
+                } else {
+                    compressed += string[i] + count;
+                    count = 1;
+                }
+            }
+            return compressed;
+        }
+        let compressedString = compressString(numArray);
+        window.alert("Compressed string: " + compressedString);
+        
+    </script>
+</html>
