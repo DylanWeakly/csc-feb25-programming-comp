@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 """
 2. List Alternator (10 pts)
 Write a function that merges two lists by alternating their elements.
@@ -25,4 +23,3 @@ def main():
 if __name__ == '__main__':
     main()
 
->>>>>>> Stashed changes
