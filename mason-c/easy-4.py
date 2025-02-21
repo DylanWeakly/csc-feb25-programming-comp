@@ -1,5 +1,5 @@
 def i_like_characters(n):
-    this_thing = "haha, I laugh."
+    this_thing = "haha, I laugh"
     more = ""
     for char in this_thing:
         for i in range(n):

@@ -6,5 +6,5 @@ def very_nice(arr):
         new_arr.append(total)
     return new_arr
 
-things = [1,3,10]
+things = [1,3,10,11]
 print(very_nice(things))
