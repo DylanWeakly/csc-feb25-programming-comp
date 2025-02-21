@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalancedParentheses</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let string = prompt("Enter string with parentheses:");
+        let isBalanced = false;
+        let rightParen = [")", "}", "]"];
+        let leftParen = ["(", "{", "["];
+        tempString = JSON.parse(JSON.stringify(string));
+        isBalanced = true;
+        for (p of rightParen) {
+            while (tempString.includes(p)) {
+                ogTLength = tempString.length;
+                tempString = tempString.replace(p, "");
+                pIndex = tempString.indexOf(p);
+
+                newTempString = tempString.replace(leftParen[pIndex], "");
+                if (newTempString.length < ogTLength) {
+                    tempString = newTempString;
+                } else {
+                    isBalanced = false;
+                    break;
+                }
+                
+            }
+        }
+        if (isBalanced) {
+            window.alert("The string is balanced.");
+        } else {
+            window.alert("The string is not balanced.");
+        }
+    </script>
+</html>
