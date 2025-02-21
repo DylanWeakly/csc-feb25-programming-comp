@@ -94,9 +94,9 @@ csc-programming-comp-feb25
    - Write a function that reverses a list in groups of `n` elements.
    - Example: `[1, 2, 3, 4, 5, 6], n=2` → `[2, 1, 4, 3, 6, 5]`
 
-#### 10. Product of List Elements (15 pts)
-   - Write a function that calculates the product of all elements in a list.
-   - Example: `[2, 3, 4]` → `24`
+#### ~~10. Product of List Elements (15 pts)~~
+   - ~~Write a function that calculates the product of all elements in a list.~~
+   - ~~Example: `[2, 3, 4]` → `24`~~
 
 #### 11. Capitalize First and Last Letter (15 pts)
    - Write a function that capitalizes only the first and last letter of each word in a sentence.
