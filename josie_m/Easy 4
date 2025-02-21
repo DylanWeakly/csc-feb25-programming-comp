@@ -1,0 +1,9 @@
+#Josie Mellick
+#Easy 5
+
+text = "abc"
+
+n = 5
+
+for char in text:
+    print(char * n)

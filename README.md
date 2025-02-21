@@ -2,7 +2,10 @@
 ## Instructions:
 Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
 After you finish each challenge, create a pull request. Dylan will merge it and keep track of your total points after you create the pull request.
-### The top 3 winners will receive an Amazon gift card. You must attend in-person to be eligible to win a gift card.
+#### The top 3 winners will receive an Amazon gift card. You must attend in-person to be eligible to win a gift card.
+
+#### Those of you from Mobile App Dev will submit your code/runs to the Moodle Site for class, in addition to this repo so your points can be tracked.
+
 ### **Most importantly, have fun**!!
 
 #### Example Project Directory Format:
@@ -17,39 +20,38 @@ csc-programming-comp-feb25
 |___another_person
 |   |___easy-2.py
 |   |___medium-23.py
-
 ```
 
 #### File Naming Convention:
-   - Folder name: Your first name.
-     - Example: `john`
+   - Folder name: Your first name and last initial (because there are a few people with the same name).
+     - Example: `John-D`
    - Programming file name: Challenge level & number.
      - Example: `easy-1.py`
 
 #### Commit Message Format:
-   - You should commit after each challenge. Your commit message should be the program you just finished.
-   - Example: If you just finished coding `easy-1.py`, your commit message should be `"easy-1"`.
+   - You should commit after each challenge. Your commit message AND pull request name should be the program you just finished.
+   - Example: If you just finished coding `easy-1.py`, your commit message AND PR name should be `"easy-1"`.
 
 
 # Challenges
 
-## GUI Challenges (10-40 points)
+## GUI Challenges (10-50 points)
 
 #### 1. Click Me Button (10 pts)
-   - Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!".
+   -  Create a GUI window with a single button labeled "Click Me!". When the user clicks the button, a label should update to say "Button Clicked!". 
      
-#### 2. Bible Verse Generator (20 pts)
-   - Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.
+####  2. Bible Verse Generator (20 pts) 
+   -  Create a GUI window that displays a random Bible verse when you click a button. Include at least 20 verses that can be generated in this program.Bib 
 
-#### 3. Digital Clock (25 pts)
+#### 3. Digital Clock (30 pts)
    - Create a GUI window that displays a simple digital clock that updates in real time in `HH:MM:SS` format.
 
-#### 4. Password Strength Checker (35 pts)
+#### 4. Password Strength Checker (40 pts)
    - Create a GUI window that evaluates the strength of a password based on length, character variety, and entropy.
    - Include a `Check Strength` button along with an input field that returns feedback on how strong the password is.
    - Example: `password123` → `Weak`
 
-#### 5. Traffic Light Simulation (40 pts)
+#### 5. Traffic Light Simulation (50 pts)
    - Create a GUI window to simulate a traffic light using three circular indicators (red, yellow, and green). When the user clicks a `Next` button, the lights should cycle correctly: `Green` → `Yellow` → `Red`.
 
 ## Standard Challenges

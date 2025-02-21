@@ -1,0 +1,12 @@
+#Josie Mellick
+#Easy 14
+
+list = [1, 2, 3, 4]
+
+first = list[0]
+last = list[len(list) - 1]
+
+list[0] = last
+list[len(list) - 1] = first
+
+print(list)

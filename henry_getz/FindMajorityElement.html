@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindCommonElementsInTwoLists</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let numArray1 = prompt("Enter a list, numbers separated by commas:").split(',').map(Number);
+        let nCountObj = {}
+        for (let i = 0; i < numArray1.length; i++) {
+            if (nCountObj[numArray1[i]] === undefined) {
+                nCountObj[numArray1[i]] = 1;
+            } else {
+                nCountObj[numArray1[i]]++;
+            }
+        }
+        let majorityElement;
+        let maxCount = 0;
+        for (const num in nCountObj) {
+            if (nCountObj[num] > maxCount) {
+            maxCount = nCountObj[num];
+            majorityElement = num;
+            }
+        }
+        window.alert("Majority element: " + majorityElement + " with count: " + maxCount);
+    </script>
+</html>

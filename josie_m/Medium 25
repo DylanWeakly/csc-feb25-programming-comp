@@ -1,0 +1,11 @@
+# Josie Mellick
+# Medium 25
+
+numbers = [1, 2, 3, 4, 5]
+
+target = int(input("Enter a target number: "))
+
+for a in numbers:
+    for b in numbers:
+        if a + b == target:
+            print(f"{target} = {a} + {b}")

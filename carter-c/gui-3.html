@@ -1,0 +1,12 @@
+<script>
+var timeDisplay = document.getElementById("time");
+function refreshTime() {
+  var dateString = new Date().toLocaleString("en-US", {timeZone: "America/Chicago"});
+  console.log(dateString.split(",")[1])
+  document.body.querySelector("#time").innerHTML = dateString.split(",")[1]
+}
+setInterval(refreshTime, 1000);
+
+</script>
+
+<p id="time"></p>
