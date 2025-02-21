@@ -24,7 +24,7 @@ csc-programming-comp-feb25
 
 #### File Naming Convention:
    - Folder name: Your first name and last initial (because there are a few people with the same name).
-     - Example: `john-d`
+     - Example: `John-D`
    - Programming file name: Challenge level & number.
      - Example: `easy-1.py`
 
