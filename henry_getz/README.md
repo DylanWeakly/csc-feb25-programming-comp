@@ -86,9 +86,9 @@ csc-programming-comp-feb25
    - Write a function that converts a string to alternating uppercase and lowercase characters.
    - Example: `"hello"` → `"HeLlO"`
 
-#### 8. Max Difference in List (15 pts)
-   - Write a function that finds the maximum difference between any two elements in a list.
-   - Example: `[10, 3, 5, 20]` → 17 `(20 - 3)`
+#### ~~8. Max Difference in List (15 pts)~~
+   - ~~Write a function that finds the maximum difference between any two elements in a list.~~
+   - ~~Example: `[10, 3, 5, 20]` → 17 `(20 - 3)~~`
 
 #### 9. Reverse List in Groups (15 pts)
    - Write a function that reverses a list in groups of `n` elements.
