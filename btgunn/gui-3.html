@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script>
+            function showTime(){
+                document.getElementById('time').innerHTML = new Date().toLocaleTimeString()
+            }
+
+            setInterval(showTime, 100);
+        </script>
+    </head>
+    <body>
+        Time <span id="time"></span>
+    </body>
+</html>
