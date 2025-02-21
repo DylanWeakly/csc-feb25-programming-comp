@@ -1,0 +1,8 @@
+#Josie Mellick
+#Easy 17
+
+num = 1234
+num = str(num)
+
+num = num[::-1]
+print(num)
