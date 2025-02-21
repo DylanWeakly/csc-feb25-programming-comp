@@ -1,0 +1,16 @@
+#Josie Mellick
+#Easy 8
+
+list = [10, 3, 5, 20]
+shortest = 100
+longest = 0
+
+for i in list:
+    if i < shortest:
+        shortest = i
+
+for i in list:
+    if i > longest:
+        longest = i
+
+print(longest - shortest)
