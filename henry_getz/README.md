@@ -74,9 +74,9 @@ csc-programming-comp-feb25
    - Write a function that repeats each character in a string `n` times.
    - Example: `"abc", n=3` → `"aaabbbccc"`
 
-#### 5. Remove Vowels from String (10 pts)
-   - Write a function that removes all vowels from a given string.
-   - Example: `"hello world"` → `"hll wrld"`
+#### ~~5. Remove Vowels from String (10 pts)~~
+   - ~~Write a function that removes all vowels from a given string.~~
+   - ~~Example: `"hello world"` → `"hll wrld"`~~
 
 #### 6. Count Unique Elements (15 pts)
    - Write a function that counts the number of unique elements in a list.

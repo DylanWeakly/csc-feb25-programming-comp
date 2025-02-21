@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringExpansion</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let numArray = prompt("Enter a string:");
+        let numCount = prompt("Enter a number to expand:");
+        function expandString(string, num) {
+            let expanded = '';
+            for (let i = 0; i < string.length; i++) {
+                expanded += string[i].repeat(num);
+            }
+            return expanded;
+        }
+        let expandedString = expandString(numArray, numCount);
+        window.alert("Expanded string: " + expandedString);
+    </script>
+</html>
