@@ -199,9 +199,9 @@ csc-programming-comp-feb25
    - Write a function to check if a given string has balanced parentheses `()`, `[]`, `{}`.
    - Example: `"({[()]})"` → `True`, `"({[)]}"` → `False`
 
-#### 30. Next Greater Element (35 pts)
-   - Write a function that, given a list of integers, finds the next greater element for each element.
-   - Example: `[4, 5, 2, 10]` → `[5, 10, 10, -1]`
+#### ~~30. Next Greater Element (35 pts)~~
+   - ~~Write a function that, given a list of integers, finds the next greater element for each element.~~
+   - ~~Example: `[4, 5, 2, 10]` → `[5, 10, 10, -1]`~~
 
 #### 31. Reverse Integer (35 pts)
    - Write a function that reverses the digits of an integer **without** converting it to a string.
