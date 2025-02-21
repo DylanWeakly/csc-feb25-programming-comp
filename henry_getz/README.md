@@ -51,8 +51,8 @@ csc-programming-comp-feb25
    - Include a `Check Strength` button along with an input field that returns feedback on how strong the password is.
    - Example: `password123` → `Weak`
 
-#### 5. Traffic Light Simulation (50 pts)
-   - Create a GUI window to simulate a traffic light using three circular indicators (red, yellow, and green). When the user clicks a `Next` button, the lights should cycle correctly: `Green` → `Yellow` → `Red`.
+#### ~~5. Traffic Light Simulation (50 pts)~~
+   - ~~Create a GUI window to simulate a traffic light using three circular indicators (red, yellow, and green). When the user clicks a `Next` button, the lights should cycle correctly: `Green` → `Yellow` → `Red`.~~
 
 ## Standard Challenges
 
