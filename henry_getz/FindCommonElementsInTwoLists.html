@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LongestConsecutiveSequence</title>
+    <title>FindCommonElementsInTwoLists</title>
     <style>
         body {
             display: flex;
@@ -21,9 +21,9 @@
 </head>
 <body>
     <script async>
-        let numArray = prompt("Enter a list of numbers separated by commas:").split(',').map(Number);
-        numArray = [...new Set(numArray)];
-        numArray.sort((a, b) => a - b);
-        window.alert("Sorted numbers: " + numArray.join(", "));
+        let numArray1 = prompt("Enter first list, numbers separated by commas:").split(',').map(Number);
+        let numArray2 = prompt("Enter first list, numbers separated by commas:").split(',').map(Number);
+        let commonElements = numArray1.filter(num => numArray2.includes(num));
+        window.alert("Common elements: " + commonElements.join(", "));
     </script>
 </html>

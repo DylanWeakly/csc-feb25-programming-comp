@@ -140,9 +140,9 @@ csc-programming-comp-feb25
 
 ## Medium Challenges (25-45 points)
 
-#### ==21. Longest Consecutive Sequence (25 pts)==
-   - ==Write a function that finds the longest consecutive sequence of numbers in an unsorted list.==
-   - ==Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])`==
+#### ~~21. Longest Consecutive Sequence (25 pts)~~
+   - ~~Write a function that finds the longest consecutive sequence of numbers in an unsorted list.~~
+   - ~~Example: `[100, 4, 200, 1, 3, 2]` → `(sequence: [1, 2, 3, 4])~~`
 
 #### 22. Matrix Transposition (25 pts)
    - Write a function that transposes a given matrix (i.e., swaps rows and columns).
