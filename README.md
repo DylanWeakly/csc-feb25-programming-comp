@@ -30,7 +30,7 @@ csc-programming-comp-feb25
 
 #### Commit Message Format:
    - You should commit after each challenge. Your commit message AND pull request name should be the program you just finished.
-   - Example: If you just finished coding `easy-1.py`, your commit message should be `"easy-1"`.
+   - Example: If you just finished coding `easy-1.py`, your commit message AND PR name should be `"easy-1"`.
 
 
 # Challenges
