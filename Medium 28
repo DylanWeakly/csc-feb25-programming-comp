@@ -1,0 +1,32 @@
+package week_1_project;
+
+import java.util.Scanner;
+public class Week_1_Class {
+	static Scanner userinput = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		System.out.print("How many rows do you want to generate?");
+		int number = userinput.nextInt();
+		
+		//create a double array with 10 rows
+		int[][] triangle = new int[number][];
+		
+		for(int i = 0;i < triangle.length; i++) {
+			triangle[i] = new int[i + 1];
+			triangle[i][0] = 1; //the first number is always 1
+			triangle[i][i] = 1; //the last number is always 1
+			
+			//calculate each number in the triangle
+			for(int k = 1; k < i; k++) {
+				triangle[i][k] = triangle[i -1][k - 1] + triangle[i - 1][k];
+			}
+		}
+		//print out the triangle with proper formatting
+		for(int i = 0; i < triangle.length; i++) {
+			for(int k = 0; k < triangle[i].length; k++) {
+				System.out.print(triangle[i][k] + "\t");
+			}
+			System.out.print("\n");
+		}
+		
+		}}
