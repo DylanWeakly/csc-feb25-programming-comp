@@ -114,9 +114,9 @@ csc-programming-comp-feb25
    - Write a function that swaps the first and last elements of a list.
    - Example: `[1, 2, 3, 4]` → `[4, 2, 3, 1]`
 
-#### 15. Sort Words by Length (20 pts)
-   - Write a function that sorts a list of words by their length.
-   - Example: `["apple", "banana", "kiwi"]` → `["kiwi", "apple", "banana"]`
+#### ~~15. Sort Words by Length (20 pts)~~
+   - ~~Write a function that sorts a list of words by their length.~~
+   - ~~Example: `["apple", "banana", "kiwi"]` → `["kiwi", "apple", "banana"]~~`
 
 #### 16. Replace Multiples of 3 and 5 (20 pts)
    - Write a function that replaces multiples of 3 with `"Bethel"`, multiples of 5 with `"Sucks"`, and multiples of both with `"BethelSucks"` in a list.
