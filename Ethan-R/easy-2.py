@@ -15,11 +15,6 @@ def alternator(l1, l2):
         l3.append(l2[i])
     return l3
 
-def main():
-    l1 = [1, 2, 3]
-    l2 = [4, 5, 6]
-    print(alternator(l1, l2))
-
-if __name__ == '__main__':
-    main()
-
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+print(alternator(l1, l2))

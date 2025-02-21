@@ -5,11 +5,11 @@ Example: [1, 2, 3] → [1, 3, 6]
 """
 
 def cumulative_sum(l):
-    l2 = []
     s = 0
+    l2 = []
     for i in l:
         s += i
         l2.append(s)
     return l2
 
-print(cumulative_sum([1, 2, 3, 4, 5, 6]))
+print(cumulative_sum([1, 2, 3, 4, 5, 6, 7, 8, 9]))
