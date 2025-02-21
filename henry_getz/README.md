@@ -70,13 +70,13 @@ csc-programming-comp-feb25
    - Write a function that returns a list where each element is the cumulative sum of the elements before it.
    - Example: `[1, 2, 3]` → `[1, 3, 6]`
 
-#### 4. String Expansion (10 pts)
-   - Write a function that repeats each character in a string `n` times.
-   - Example: `"abc", n=3` → `"aaabbbccc"`
+#### ~~4. String Expansion (10 pts)~~
+   - ~~Write a function that repeats each character in a string `n` times.~~
+   - ~~Example: `"abc", n=3` → `"aaabbbccc"`~~
 
-#### 5. Remove Vowels from String (10 pts)
-   - Write a function that removes all vowels from a given string.
-   - Example: `"hello world"` → `"hll wrld"`
+#### ~~5. Remove Vowels from String (10 pts)~~
+   - ~~Write a function that removes all vowels from a given string.~~
+   - ~~Example: `"hello world"` → `"hll wrld"`~~
 
 #### 6. Count Unique Elements (15 pts)
    - Write a function that counts the number of unique elements in a list.
@@ -86,17 +86,17 @@ csc-programming-comp-feb25
    - Write a function that converts a string to alternating uppercase and lowercase characters.
    - Example: `"hello"` → `"HeLlO"`
 
-#### 8. Max Difference in List (15 pts)
-   - Write a function that finds the maximum difference between any two elements in a list.
-   - Example: `[10, 3, 5, 20]` → 17 `(20 - 3)`
+#### ~~8. Max Difference in List (15 pts)~~
+   - ~~Write a function that finds the maximum difference between any two elements in a list.~~
+   - ~~Example: `[10, 3, 5, 20]` → 17 `(20 - 3)~~`
 
 #### 9. Reverse List in Groups (15 pts)
    - Write a function that reverses a list in groups of `n` elements.
    - Example: `[1, 2, 3, 4, 5, 6], n=2` → `[2, 1, 4, 3, 6, 5]`
 
-#### 10. Product of List Elements (15 pts)
-   - Write a function that calculates the product of all elements in a list.
-   - Example: `[2, 3, 4]` → `24`
+#### ~~10. Product of List Elements (15 pts)~~
+   - ~~Write a function that calculates the product of all elements in a list.~~
+   - ~~Example: `[2, 3, 4]` → `24`~~
 
 #### 11. Capitalize First and Last Letter (15 pts)
    - Write a function that capitalizes only the first and last letter of each word in a sentence.
@@ -106,29 +106,29 @@ csc-programming-comp-feb25
    - Write a function that finds the first non-repeating character in a string.
    - Example: `"swiss"` → `"w"`
 
-#### 13. Sum of Odd Numbers (20 pts)
-   - Write a function that returns the sum of all odd numbers in a given list.
-   - Example: `[1, 2, 3, 4, 5]` → `9`
+#### ~~13. Sum of Odd Numbers (20 pts)~~
+   - ~~Write a function that returns the sum of all odd numbers in a given list.~~
+   - ~~Example: `[1, 2, 3, 4, 5]` → `9`~~
 
 #### 14. Swap First and Last Elements (20 pts)
    - Write a function that swaps the first and last elements of a list.
    - Example: `[1, 2, 3, 4]` → `[4, 2, 3, 1]`
 
-#### 15. Sort Words by Length (20 pts)
-   - Write a function that sorts a list of words by their length.
-   - Example: `["apple", "banana", "kiwi"]` → `["kiwi", "apple", "banana"]`
+#### ~~15. Sort Words by Length (20 pts)~~
+   - ~~Write a function that sorts a list of words by their length.~~
+   - ~~Example: `["apple", "banana", "kiwi"]` → `["kiwi", "apple", "banana"]~~`
 
 #### 16. Replace Multiples of 3 and 5 (20 pts)
    - Write a function that replaces multiples of 3 with `"Bethel"`, multiples of 5 with `"Sucks"`, and multiples of both with `"BethelSucks"` in a list.
    - Example: `[1, 3, 5, 15]` → `[1, "Bethel", "Sucks", "BethelSucks"]`
 
-#### 17. Reverse Digits of Number (20 pts)
-   - Write a function that reverses the digits of a given number.
-   - Example: `1234` → `4321`
+#### ~~17. Reverse Digits of Number (20 pts)~~
+   - ~~Write a function that reverses the digits of a given number.~~
+   - ~~Example: `1234` → `4321`~~
 
-#### 18. Second Smallest Number (20 pts)
-   - Write a function that returns the second-smallest number in a list.
-   - Example: `[3, 1, 4, 2, 5]` → `2`
+#### ~~18. Second Smallest Number (20 pts)~~
+   - ~~Write a function that returns the second-smallest number in a list.~~
+   - ~~Example: `[3, 1, 4, 2, 5]` → `2`~~
 
 #### ~~19. Find Common Elements in Two Lists (20 pts)~~
    - ~~Write a function that finds the common elements between two lists.~~
@@ -199,17 +199,17 @@ csc-programming-comp-feb25
    - Write a function to check if a given string has balanced parentheses `()`, `[]`, `{}`.
    - Example: `"({[()]})"` → `True`, `"({[)]}"` → `False`
 
-#### 30. Next Greater Element (35 pts)
-   - Write a function that, given a list of integers, finds the next greater element for each element.
-   - Example: `[4, 5, 2, 10]` → `[5, 10, 10, -1]`
+#### ~~30. Next Greater Element (35 pts)~~
+   - ~~Write a function that, given a list of integers, finds the next greater element for each element.~~
+   - ~~Example: `[4, 5, 2, 10]` → `[5, 10, 10, -1]`~~
 
 #### 31. Reverse Integer (35 pts)
    - Write a function that reverses the digits of an integer **without** converting it to a string.
    - Example: `1234` → `4321`, `-456` → `-654`
 
-#### 32. String Compression (35 pts)
-   - Implement a function that compresses a string using the counts of repeated characters.
-   - Example: `"aabcccccaaa"` → `"a2b1c5a3"`
+#### ~~32. String Compression (35 pts)~~
+   - ~~Implement a function that compresses a string using the counts of repeated characters.~~
+   - ~~Example: `"aabcccccaaa"` → `"a2b1c5a3"`~~
 
 #### 33. Word Ladder (40 pts)
    - Given a dictionary and two words, find the shortest transformation sequence by changing one letter at a time.
@@ -232,9 +232,9 @@ csc-programming-comp-feb25
    - Write a function that finds the longest palindromic substring in a given string.
    - Example: `"babad"` → `"bab"` or `"aba"`
 
-#### 37. Find Kth Largest Element (45 pts)
-   - Write a function that, given an array and an integer k, returns the kth largest element.
-   - Example: `[3, 2, 1, 5, 6, 4]`, `k=2` → `5`
+#### ~~37. Find Kth Largest Element (45 pts)~~
+   - ~~Write a function that, given an array and an integer k, returns the kth largest element.~~
+   - ~~Example: `[3, 2, 1, 5, 6, 4]`, `k=2` → `5`~~
 
 #### 38. Find Subarray with Given Sum (45 pts)
    - Given an array of integers, find a subarray that sums to a given value `S`.
@@ -264,9 +264,9 @@ csc-programming-comp-feb25
    - Write a function that finds the shortest path between two nodes in a weighted graph using Dijkstra’s algorithm.
    - Example: Graph with weighted edges input.
 
-#### 45. Expression Evaluator (50 pts)
-   - Write a program that evaluates mathematical expressions, supporting parentheses, addition, subtraction, multiplication, and division.
-   - Example: Input `"3 + (2 * 5)"` → `"13"`.
+#### ~~45. Expression Evaluator (50 pts)~~
+   - ~~Write a program that evaluates mathematical expressions, supporting parentheses, addition, subtraction, multiplication, and division.~~
+   - ~~Example: Input `"3 + (2 * 5)"` → `"13"`.~~
 
 #### 46. Sliding Puzzle Solver (50 pts)
    - Write a program that solves an `NxN` sliding puzzle (e.g., the 15-puzzle) using an optimal search algorithm.
