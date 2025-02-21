@@ -122,9 +122,9 @@ csc-programming-comp-feb25
    - Write a function that replaces multiples of 3 with `"Bethel"`, multiples of 5 with `"Sucks"`, and multiples of both with `"BethelSucks"` in a list.
    - Example: `[1, 3, 5, 15]` → `[1, "Bethel", "Sucks", "BethelSucks"]`
 
-#### 17. Reverse Digits of Number (20 pts)
-   - Write a function that reverses the digits of a given number.
-   - Example: `1234` → `4321`
+#### ~~17. Reverse Digits of Number (20 pts)~~
+   - ~~Write a function that reverses the digits of a given number.~~
+   - ~~Example: `1234` → `4321`~~
 
 #### ~~18. Second Smallest Number (20 pts)~~
    - ~~Write a function that returns the second-smallest number in a list.~~
