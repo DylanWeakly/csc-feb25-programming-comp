@@ -164,9 +164,9 @@ csc-programming-comp-feb25
    - Write a function that, given a list of words, groups all anagrams together.
    - Example: `["bat", "tab", "cat", "tac", "act]` → `[["bat", "tab"], ["cat", "tac", "act"]]`
 
-#### 24. Find Majority Element (25 pts)
-   - Write a function that, given a list of integers, returns the majority element (appears more than `n/2` times).
-   - Example: `[3, 3, 4, 2, 3, 3, 3]` → `3`
+#### ~~24. Find Majority Element (25 pts)~~
+   - ~~Write a function that, given a list of integers, returns the majority element (appears more than `n/2` times).~~
+   - ~~Example: `[3, 3, 4, 2, 3, 3, 3]` → `3`~~
 
 #### 25. Find All Pairs with a Target Sum (25 pts)
    - Write a function that finds all pairs of integers in a list that add up to a given target sum.
