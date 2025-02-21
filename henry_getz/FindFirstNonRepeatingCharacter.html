@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindFirstNonRepeatingCharacter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script async>
+        let thing = prompt("Enter a string:");
+        sArray = thing.split("");
+        let charCount = {};
+        for (w of sArray) {
+            if (!charCount[w]) {
+                charCount[w] = 1;
+            } else {
+                charCount[w]++;
+            }
+        }
+        let sKeys = Object.keys(charCount);
+        console.log(sKeys);
+        let sValues = Object.values(charCount);
+        console.log(sValues);
+        let maxSValue = Math.max(...sValues);
+        console.log(maxSValue);
+        let ogArrayCount = [];
+        for (i of sArray) {
+            ogArrayCount.push(charCount[i]);
+        }
+        console.log(ogArrayCount);
+        let firstOneIndex = ogArrayCount.indexOf(1);
+        console.log(firstOneIndex);
+        let firstOne = sArray[firstOneIndex];
+        console.log(firstOne);
+        alert("First non-repeating character: " + firstOne);
+        
+        
+    </script>
+</html>
