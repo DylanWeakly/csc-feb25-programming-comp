@@ -12,4 +12,6 @@ def reverse_words_and_change_case(sentence):
     sentence = ' '.join(words)
     return sentence
 
-reverse_words_and_change_case("Hello world you are not cool ")  # Output: "wORLD hELLO"
+sentence = "Hello world you are not cool" #Output: "COOL NOT ARE YOU WORLD HELLO"
+result = reverse_words_and_change_case(sentence)
+print(result)
