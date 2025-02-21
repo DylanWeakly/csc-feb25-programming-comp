@@ -20,17 +20,16 @@ csc-programming-comp-feb25
 |___another_person
 |   |___easy-2.py
 |   |___medium-23.py
-
 ```
 
 #### File Naming Convention:
-   - Folder name: Your first name.
-     - Example: `john`
+   - Folder name: Your first name and last initial (because there are a few people with the same name).
+     - Example: `john-d`
    - Programming file name: Challenge level & number.
      - Example: `easy-1.py`
 
 #### Commit Message Format:
-   - You should commit after each challenge. Your commit message should be the program you just finished.
+   - You should commit after each challenge. Your commit message AND pull request name should be the program you just finished.
    - Example: If you just finished coding `easy-1.py`, your commit message should be `"easy-1"`.
 
 
