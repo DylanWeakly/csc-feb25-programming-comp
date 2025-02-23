@@ -258,7 +258,7 @@
    - Write a program that interprets and executes a simple bytecode language with basic arithmetic and control flow.
    - Example: Input bytecode sequence executes operations.
 
-### *This section of README.md has been archived since the Programming Competition has concluded*.#
+#### *This section of README.md has been archived since the Programming Competition has concluded*.
 
 ## Instructions (For Friday's competition):
 Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
