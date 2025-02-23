@@ -1,10 +1,12 @@
-# CSC Programming Competition: February 21st, 2025 - R1340 from 3:30 - 5:30 pm
+## CSC Programming Competition: February 21st, 2025 - R1340 from 3:30 - 5:30 pm
+# **Attention Mobile App Development Students!**
+### Feel free to just submit your programs to Dr. Zderad for credit. You are not required to commit your programs to this repo since the competition has ended.
+
+
 ## Instructions:
 Each person must fork this GitHub repo and create a folder in the repo with their name; all the challenges must be stored in it. You are allowed to use any programming language you desire. You may utilize websites such as [Stack Overflow](stackoverflow.com) and other assistive programming sites to help complete the challenges. However, you are ***not allowed*** to use ChatGPT, browser-embedded AI models, or any other form of generative AI.
 After you finish each challenge, create a pull request. Dylan will merge it and keep track of your total points after you create the pull request.
 #### The top 3 winners will receive an Amazon gift card. You must attend in-person to be eligible to win a gift card.
-
-#### Those of you from Mobile App Dev will submit your code/runs to the Moodle Site for class, in addition to this repo so your points can be tracked.
 
 ### **Most importantly, have fun**!!
 
