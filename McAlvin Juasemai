@@ -1,0 +1,34 @@
+<html lang="en">
+<head> 
+    <title>Button Click GUI</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="updateText()">Click Me!</button>
+    <p id="message"></p>
+    
+    <script>
+        function updateText() {
+            document.getElementById('message').textContent = "Button Clicked!";
+        }
+    </script>
+</body>
+</html>
